@@ -477,15 +477,16 @@ em { font-style: normal; background: var(--gradient); -webkit-background-clip: t
 }
 
 @media (max-width: 768px) {
+  .hero { align-items: flex-start; padding-top: 140px; min-height: 100vh; }
   .header-row { display: flex; justify-content: space-between; align-items: center; }
   .nav-links, .header-cta { display: none; }
   .header-logo-img { height: 55px; }
-  .logo { font-size: 1.2rem; }
-  .logo span { font-size: 1.2rem !important; }
+  .logo { font-size: 1.1rem; }
+  .logo span { font-size: 1.1rem !important; }
   .menu-toggle { display: flex; }
-  .hero-title-pro { font-size: clamp(2rem, 8vw, 2.5rem); line-height: 1.1; margin-bottom: 1rem; }
-  .hero-sub { font-size: 1rem; }
-  .hero-meta { gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; }
+  .hero-title-pro { font-size: 2.3rem; line-height: 1.15; margin-bottom: 1rem; }
+  .hero-sub { font-size: 1rem; margin-bottom: 2rem; }
+  .hero-meta { gap: 1.2rem; flex-wrap: wrap; margin-top: 1.5rem; padding-top: 1.5rem; }
   .hero-bg { background-attachment: scroll; background-position: top center; }
   
   .footer-row { flex-direction: column; text-align: center; }
