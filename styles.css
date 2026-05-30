@@ -480,15 +480,22 @@ em { font-style: normal; background: var(--gradient); -webkit-background-clip: t
   .header-row { display: flex; justify-content: space-between; align-items: center; }
   .nav-links, .header-cta { display: none; }
   .header-logo-img { height: 55px; }
+  .logo { font-size: 1.2rem; }
+  .logo span { font-size: 1.2rem !important; }
   .menu-toggle { display: flex; }
-  .hero-title { font-size: clamp(2.2rem, 10vw, 3.5rem); }
-  .hero-meta { gap: 1.5rem; flex-wrap: wrap; }
+  .hero-title-pro { font-size: clamp(2rem, 8vw, 2.5rem); line-height: 1.1; margin-bottom: 1rem; }
+  .hero-sub { font-size: 1rem; }
+  .hero-meta { gap: 1.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; }
+  .hero-bg { background-attachment: scroll; background-position: top center; }
+  
   .footer-row { flex-direction: column; text-align: center; }
   .footer-links { flex-wrap: wrap; justify-content: center; }
+  
   .carousel-item { width: 280px; height: 210px; }
-  .review-card { width: 300px; }
+  .review-card { width: 270px; padding: 1.5rem; }
+  .review-card p { font-size: 0.9rem; }
   @keyframes carousel-scroll { 100% { transform: translateX(calc(-280px * 6 - 1.5rem * 6)); } }
-  @keyframes marquee-scroll { 100% { transform: translateX(calc(-300px * 9 - 1.5rem * 9)); } }
+  @keyframes marquee-scroll { 100% { transform: translateX(calc(-270px * 9 - 1.5rem * 9)); } }
 
   /* Mobile menu */
   .nav-links.open {
